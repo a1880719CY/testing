@@ -1,3 +1,34 @@
 1. The complexity of the given code fragment can be described as O(n), where 'n' is the value controlling the loop. The loop iterates 'n / 4' times, which still grows linearly with 'n'.
 
 2.The tightest complexity that describes the given code fragment is O(n), as the loop iterates 'n / 4' times, which still grows linearly with 'n'.
+
+3. The tightest complexity that describes the given code fragment is O(n^2). This is because there are two nested loops, each iterating 'n' times, resulting in a total of 'n * n' iterations, which simplifies to O(n^2).
+
+4.The tightest complexity that describes the given code fragment is O(n^2). This is because of the nested loops, where each loop iterates 'n' times, resulting in 'n * n' total iterations, which simplifies to O(n^2).
+
+5.The tightest complexity that describes the given code fragment is O(n^3). 
+
+The outer loop runs 'n' times, the middle loop runs 'i' times, and the inner loop runs 'n' times. So the total number of iterations is proportional to 'n * i * n', which simplifies to O(n^3) in the worst case.
+
+6. The tightest complexity that describes the given code fragment is O(n^3). 
+
+The outer loop runs 'n' times, the middle loop runs 'i^2' times, and the inner loop runs 'n' times. So the total number of iterations is proportional to 'n * i^2 * n', which simplifies to O(n^3) in the worst case.
+
+Mc: Sure, here are the correct statements:
+
+1. n^3 = O(n^4)
+2. If f(n) = Ω(g(n)), then f(n) = O(g(n)).
+3. If f(n) = o(g(n)), then f(n) = O(g(n)).
+4. If f(n) = o(g(n)) and g(n) = o(h(n)), then f(n) = o(h(n)).
+5. Θ is a tight bound notation.
+
+Q5:Ordering the formulas from slowest (1) to fastest (8) growth rate:
+
+1. log^2(n)
+2. log(n^2)
+3. n*log(n^3)
+4. n^2 + n
+5. n^{0.5} + 1
+6. 1n!
+7. (1.5)^n
+8. 4^n
