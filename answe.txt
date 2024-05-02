@@ -32,3 +32,56 @@ Q5:Ordering the formulas from slowest (1) to fastest (8) growth rate:
 6. 1n!
 7. (1.5)^n
 8. 4^n
+
+
+To apply the master theorem, let's analyze the given recurrence relation:
+
+\[ T(n) = aT(n/b) + f(n) \]
+
+In the given code:
+
+- \( a \) is the number of recursive calls. Here, we have one recursive call \( f(n/2) \).
+- \( b \) is the factor by which the problem size is reduced in each recursive call. Here, \( n \) is halved in each recursive call, so \( b = 2 \).
+- \( f(n) \) is the additional work done outside of the recursive calls. In this case, it's the loop with \( n \) iterations.
+
+Given this information:
+
+- \( a = 1 \) (one recursive call)
+- \( b = 2 \) (problem size is halved in each recursive call)
+- \( d = 1 \) (the loop does \( n \) iterations)
+
+Therefore, the parameters for the master theorem are:
+
+\( a = 1 \), \( b = 2 \), and \( d = 1 \).
+
+
+
+
+
+For the binary search algorithm:
+
+- \( a \) is the number of recursive calls. In binary search, there are two recursive calls made on subproblems of half the size each time.
+- \( b \) is the factor by which the problem size is reduced in each recursive call. In binary search, the problem size is halved in each recursive call.
+- \( d \) is the amount of work done outside of the recursive calls. In binary search, it's typically a constant amount of work.
+
+Therefore, for the binary search algorithm:
+
+\( a = 2 \) (two recursive calls),
+\( b = 2 \) (problem size is halved in each recursive call), and
+\( d = 1 \) (a constant amount of work).
+
+
+
+
+The sorting algorithms that provide computational complexity O(n log n) in the average case are:
+
+- Quick sort
+- Merge sort
+
+
+The true statements about linked lists are:
+
+- Deleting a node from the back of a singly linked list with head and tail pointers can be done in O(1).
+- The time complexity for inserting a node at the beginning of a singly linked list is O(1).
+- Linked lists can be more space-efficient than C++ vectors in situations where we repeatedly add elements.
+- Inserting a node at the back of a singly linked list with head and tail pointers can be done in O(1).
