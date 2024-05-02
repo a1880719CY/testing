@@ -1,0 +1,328 @@
+What is the tightest complexity that describes the following code fragment?
+
+ 
+
+int sum1 = 0;
+
+int sum2 = 0;
+
+for (int i = 1; i < n; i = i
+
+4) {
+
+                sum1++;
+
+                sum2++;                
+
+ }
+
+ 
+
+What is the tightest complexity that describes the following code fragment?
+
+ 
+
+int sum1 = 0;
+
+int sum2 = 0;
+
+for (int i = 1; i < n; i = i
+
+4) {
+
+                sum1++;
+
+                sum2++;                
+
+ }
+
+ 
+
+O(log n)
+
+O(n)
+
+O(n2)
+
+O(n4)
+Question at position 2
+2
+ 
+3 points 
+ 
+ 
+Question at position 2 
+
+What is the tightest complexity that describes the following code fragment?
+
+ 
+
+int sum = 0;
+
+for (int i=0; i < n; i++) {
+
+      for (int j=0; j < n; j++) {
+
+            if(i != j) {
+
+                    sum++;
+
+            }
+
+      }
+
+}
+
+What is the tightest complexity that describes the following code fragment?
+
+ 
+
+int sum = 0;
+
+for (int i=0; i < n; i++) {
+
+      for (int j=0; j < n; j++) {
+
+            if(i != j) {
+
+                    sum++;
+
+            }
+
+      }
+
+}
+
+O(n2)
+
+O(log n)
+
+O (n)
+
+O(n log n)
+Question at position 3
+3
+ 
+2 points 
+ 
+ 
+Question at position 3 
+
+What is the tightest complexity that describes the following code fragment?
+
+ 
+
+int sum = 0;
+
+for (int i=0; i < n; i++) {
+
+      for (int j=0; j < i
+
+i; j++) {
+
+            if(i == j) {
+
+                    for (int k = 0; k < n; k++) {
+
+                          sum++;
+
+                    }
+
+            }
+
+      }
+
+}
+
+What is the tightest complexity that describes the following code fragment?
+
+ 
+
+int sum = 0;
+
+for (int i=0; i < n; i++) {
+
+      for (int j=0; j < i
+
+i; j++) {
+
+            if(i == j) {
+
+                    for (int k = 0; k < n; k++) {
+
+                          sum++;
+
+                    }
+
+            }
+
+      }
+
+}
+
+O(n2)
+
+O(n3)
+
+O(n4)
+
+O(n)
+Question at position 4
+4
+ 
+5 points 
+ 
+ 
+Question at position 4 
+
+ Which statements are correct?  (Multiple answers)
+
+ Which statements are correct?  (Multiple answers)
+
+If f(n)=O(g(n)), then f(n)=o(g(n)).
+
+n3=
+
+(n4)
+
+Big O and Little o are upper bound notations.
+
+if f(n)=
+
+(g(n)), then f(n)=O(g(n)).
+
+n2=o(n2)
+
+If f(n)=
+
+(g(n)), then g(n)=O(f(n)).
+
+If f(n)=o(g(n)), then f(n)=O(g(n)).
+
+If f(n)=o(g(n)) and g(n)=o(h(n)), then f(n)=o(h(n)).
+
+denotes the best case complexity.
+
+is a tight bound notation.
+Question at position 5
+5
+ 
+5 points 
+ 
+ 
+Question at position 5 
+
+Order the following formulas from slowest (1) to fastest (8) growth rate.
+Prompt 1n!
+Answer for prompt 1 n!
+Prompt 2n^{0.5}+1
+Answer for prompt 2 n^{0.5}+1
+Prompt 3(1.5)^n
+Answer for prompt 3 (1.5)^n
+Prompt 4log(n^2)
+Answer for prompt 4 log(n^2)
+Prompt 5log^2(n)
+Answer for prompt 5 log^2(n)
+Prompt 64^n
+Answer for prompt 6 4^n
+Prompt 7n^2+n
+Answer for prompt 7 n^2+n
+Prompt 8n*log(n^3)
+Answer for prompt 8 n*log(n^3)
+Question at position 6
+6
+ 
+3 points 
+ 
+ 
+Question at position 6 
+
+Find a, b and d master theorem parameters for the following code:
+
+ 
+
+int f(int n) {
+
+
+     if (n < 2) return 0;
+
+ 
+
+     int sum = 0;
+
+ 
+
+     for (int i = 0; i < n; i++) {
+          sum++;
+
+     }
+
+ 
+
+     return f(n/2) + 2f(n/2) + sum;
+}
+
+ 
+
+a=Question Blank 1 of 3, b=Question Blank 2 of 3, d=Question Blank 3 of 3.
+Question at position 7
+7
+ 
+3 points 
+ 
+ 
+Question at position 7 
+
+Find a, b and d master theorem parameters for the binary search algorithm.
+
+a=Question Blank 1 of 3, b=Question Blank 2 of 3, d=Question Blank 3 of 3.
+Question at position 8
+8
+ 
+3 points 
+ 
+ 
+Question at position 8 
+
+Which sorting algorithms provide computational complexity O(n log n) in average case.
+
+Which sorting algorithms provide computational complexity O(n log n) in average case.
+
+Bubble sort
+
+Quick sort
+
+Insertion sort
+
+Selection sort
+
+Merge sort
+Question at position 9
+9
+ 
+3 points 
+ 
+ 
+Question at position 9 
+
+Which of the following statements are true about linked lists.
+
+ 
+
+Select all that apply.
+
+Which of the following statements are true about linked lists.
+
+ 
+
+Select all that apply.
+
+Linked lists utilise contiguous memory.
+
+Deleting a node from back of a singly linked list with head and tail pointers can be done in O(1).
+
+The time complexity for inserting a node at the beginning of a singly linked list is O(1).
+
+Linked lists can be more SPACE efficient than C++ vectors in situations where we repeatedly add elements.
+
+Inserting a node at back of a singly linked list with head and tail pointers can be done in O(1).
